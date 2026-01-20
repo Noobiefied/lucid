@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+:root {
+    --color1: #574964;
+    --color2: #9F8383;
+    --color3: #C8AAAA;
+    --color4: #FFDAB3;
+}
+
+/* Global Stylings */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bubbler One', 'Montserrat', 'Titillium Web', Zalando Sans Expanded
+, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: var(--color3);
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: var(--color1);
+    color: var(--color3)
+}
+
+/* Header Stylings */
+header > h1 {
+    text-align: center;
+    font-family: 'Bubbler One', 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+/* Recipe Search Styligns */
+.recipe-search {
+    margin: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.recipe-search h2 {
+    padding-bottom: 20px;
+    font-family: 'Zalando Sans Expanded', 'Titillium Web', sans-serif;
+    color: var(--color1);
+    font-size: 35px;
+}
+
+.recipe-search p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#searchbar {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+/* Browese recipes stylings */
+.browse-recipes {
+    margin: 20px;
+    padding: 10px;
+}
+
+.browse-recipes h2 {
+    color: var(--color1);
+    font-family: 'Zalando Sans Expanded', 'Titillium Web', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.browse-recipes p {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+}
