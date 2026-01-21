@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubbler+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap");
+:root {
+  --color1: #574964;
+  --color2: #9f8383;
+  --color3: #c8aaaa;
+  --color4: #ffdab3;
+}
+
+/* Global Stylings */
+* {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Bubbler One",
+    "Montserrat",
+    "Titillium Web",
+    Zalando Sans Expanded,
+    sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: var(--color3);
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: var(--color1);
+  color: var(--color3);
+}
+
+/* Header Stylings */
+header > h1 {
+  text-align: center;
+  font-family: "Bubbler One", "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.recipe-info {
+  margin: 30px;
+}
+
+.recipe-info .description {
+  font-size: 20px;
+}
+
+section h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+section h1::before {
+  content: "🍪 ";
+}
+
+img {
+  width: 400px;
+  margin: 30px;
+  margin-bottom: 0;
+}
+
+span {
+  margin-left: 30px;
+}
+
+.ingredients, .instructions {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ingredients h2, .instructions h2 {
+  font-size: 30px;
+}
+
+.ingredient-text, .instructions-text {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 15px;
+  font-size: 18px;
+  list-style-type: circle;
+}
+
+li {
+  margin: 5px;
+}
+
+strong {
+  font-size: 21px;
+}
+
+.tip {
+  margin-top: 20px;
+  font-size: 17px;
+}
