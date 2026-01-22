@@ -102,11 +102,6 @@ header > h1 {
   font-size: 25px;
 }
 
-.recipe-card h1::before {
-  content: "01 |";
-  margin-right: 5px;
-}
-
 .recipe-card img {
   height: 300px;
   margin: 10px;
